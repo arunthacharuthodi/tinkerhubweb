@@ -1,24 +1,23 @@
-import logo from './logo.svg';
+
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import CustomNavBar from './components/main_navbar/navbar';
+import HomepageCanvas from './components/canvas/homepage_canvas';
+
+
 
 function App() {
+  function alertdata(){
+    alert("hello");
+  };
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <CustomNavBar/>
+      <HomepageCanvas/>
+
+    </>
   );
 }
 
