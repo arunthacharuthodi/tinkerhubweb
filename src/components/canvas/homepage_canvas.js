@@ -1,7 +1,7 @@
-import React, { useRef, useState } from "react"
-import { Html, OrbitControls, Sky, Stars , MapControls, FlyControls, DeviceOrientationControls, MeshWobbleMaterial, Scroll, ScrollControls, useScroll} from '@react-three/drei';
+
+import { Html, OrbitControls,  Stars } from '@react-three/drei';
 import Model from "../Tinkerhub_logo"
-import { Canvas, useFrame } from '@react-three/fiber';
+import { Canvas} from '@react-three/fiber';
 import styled from "styled-components";
 
 const CanvasContainer = styled.div`
@@ -10,9 +10,6 @@ height: 100%;
 background-color: black;
 
 `;
-
-
-
 
 export default function HomepageCanvas() {
 

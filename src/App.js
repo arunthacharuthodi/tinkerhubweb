@@ -7,9 +7,7 @@ import HomepageCanvas from './components/canvas/homepage_canvas';
 
 
 function App() {
-  function alertdata(){
-    alert("hello");
-  };
+
 
 
   return (
