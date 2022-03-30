@@ -1,60 +1,16 @@
-.main-container{
+*{
     color: white;
-padding: 10px;
-margin: 0px;
-display: flex;
-flex-direction: row;
-width:auto;
-height: 40px;
-justify-content: space-between;
-background-color: rgb(228, 167, 77);
-
 }
 
-.logo-container{
-    /* background-color: red; */
-    margin-top: auto;
-    margin-bottom: auto;
+Navbar{
+    background-color: rgb(0, 0, 0);
 }
-
-.navbar-options{
-    display: flex;
-flex-direction: row; 
-}
-.navbar-options ul{
-    /* margin-top: 0px; */
-    margin-top: auto;
-    margin-bottom: auto;
-    /* background-color: red; */
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-}
-.navbar-options ul a{
-    text-decoration: none;
+#navbarScrollingDropdown{
     color: white;
-    text-shadow: black;
-    font-weight: 500;
 }
-/* on :hover */
-.navbar-options ul a:hover{
-    color: rgb(0, 26, 255);
-    transition-duration: 100ms ease;
-}
-ul li{
-    padding-left: 10px;
-    padding-right: 20px;
-
-}
-.navbar-options button{
-    border-radius:9px ;
-    background-color: rgb(190, 190, 190);
-    border: 1px solid white;
-    font-weight: 600;
+b{
     color: white;
-    margin-left: 30px;
 }
-.navbar-options button:hover{
-    background-color: rgb(255, 196, 68);
-    transition-duration: 200ms;
+Nav.Link{
+    color: white;
 }

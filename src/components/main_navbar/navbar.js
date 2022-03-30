@@ -6,20 +6,20 @@ import "./navbar.css"
 function CustomNavBar() {
     return (
 
-<Navbar bg="light" expand="xl" sticky="top" >
+<Navbar bg="dark" expand="xl" >
   <Container fluid>
     <Navbar.Brand href="#"><b>Tinkerhub Gecw</b></Navbar.Brand>
     <Navbar.Toggle aria-controls="navbarScroll" />
     <Navbar.Collapse id="navbarScroll">
       <Nav
         className="me-auto my-2 my-lg-0"
-        style={{ maxHeight: '100px' }}
+        style={{ maxHeight: '100px'}}
         navbarScroll
       >
-        <Nav.Link href="#action1">Home</Nav.Link>
-        <Nav.Link href="#action2">Resources</Nav.Link>
-        <Nav.Link href="#action2">Gallery</Nav.Link>
-        <NavDropdown title="Commitee  " id="navbarScrollingDropdown">
+        <Nav.Link href="#action1" style={{color:"white"}}>Home</Nav.Link>
+        <Nav.Link href="#action2"style={{color:"white"}}>Resources</Nav.Link>
+        <Nav.Link href="#action2"style={{color:"white"}}>Gallery</Nav.Link>
+        <NavDropdown title="Committee  " id="navbarScrollingDropdown" >
           <NavDropdown.Item href="#action3">Technical</NavDropdown.Item>
           <NavDropdown.Item href="#action4">Creative</NavDropdown.Item>
           <NavDropdown.Item href="#action4">Outreach</NavDropdown.Item>
@@ -33,7 +33,7 @@ function CustomNavBar() {
        
         </Nav.Link>
       </Nav>
-      <Nav.Link href="#action2"><b>Opensource</b></Nav.Link>
+      <Nav.Link href="#action2" ><b>Opensource</b></Nav.Link>
       <Nav.Link href="#action2"><b>Github</b></Nav.Link>
      
         <Button variant="outline-primary"><b>JOIN US</b></Button>

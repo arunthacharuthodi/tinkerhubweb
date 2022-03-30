@@ -18,7 +18,7 @@ export default function HomepageCanvas() {
 
 
 <CanvasContainer>
-<Canvas  camera={{ position:[4 , -1, -1]}}  >
+<Canvas    >
 
   <OrbitControls enableZoom={false} />
 
@@ -28,21 +28,24 @@ export default function HomepageCanvas() {
 
   <ambientLight intensity={0.5} />
   <spotLight position={[10, 15, 10]} angle={0.3} />
+  <spotLight position={[17, 8, -1]} angle={0.3} />
   
+
+  
+  <Model/>
   <Html  center>
   <div className="inside">
      <h1>welcome to tinkerhub</h1>
      <p>
+       <h5>
        we are tinkerhub, we are a group of people who are passionate about forging things.
+       </h5>
         
      </p>
   </div>
   
   </Html>
   
-  
-  <Model/>
-
 </Canvas>
 
 </CanvasContainer>
