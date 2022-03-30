@@ -1,3 +1,6 @@
+import { Button } from "bootstrap";
+import { Form, Row } from "react-bootstrap";
+
 export default function JoinUsPage(){
     return (<>
     <Form>
